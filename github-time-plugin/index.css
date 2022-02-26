@@ -1,0 +1,37 @@
+@font-face{
+    font-family: "clock-font";
+    src: url(./Library3am.otf);
+}
+.wrap {
+  padding: 10px 0;
+  background-color: #282a36;
+  user-select: none;
+  font-family: clock-font;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap .contain:nth-child(1) span{
+    color: #cc199f;
+}
+.wrap .contain:nth-child(2) span{
+    color: #9196F3;
+    font-size: .3em;
+}
+.wrap .contain:nth-child(1) .wrap-time{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 3px;
+    width: fit-content;
+    height: 1rem;
+}
+.wrap .contain:nth-child(2) .wrap-time{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 3px;
+    width: fit-content;
+}
